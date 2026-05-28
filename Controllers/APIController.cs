@@ -1,6 +1,6 @@
 
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Data.SqlClient;
+using Npgsql;
 class Item {
     public string name;
     public int price;
@@ -16,26 +16,26 @@ namespace BuggyApp.Controllers
         public async Task<IActionResult> GetData()
         {
             List<Item> items = null;
-            var builder = new SqlConnectionStringBuilder
+            var builder = new NpgsqlConnectionStringBuilder
             {
-                DataSource = "localhost,5442",
-                UserID = "postgres",
-                InitialCatalog = "postgres",
-                TrustServerCertificate = true,
-                IntegratedSecurity = true,
-                Encrypt=true
+                Host = "localhost",
+                Port = 5442,
+                Username = "postgres",
+                Database = "postgres",
+                SslMode = SslMode.Require,
+                TrustServerCertificate = true
             };
 
             var connectionString = builder.ConnectionString;
 
             try
             {
-                await using var connection = new SqlConnection(connectionString);
+                await using var connection = new NpgsqlConnection(connectionString);
 
                 await connection.OpenAsync();
 
                 var sql = "SELECT name, price FROM sys.InvoiceItems";
-                await using var command = new SqlCommand(sql, connection);
+                await using var command = new NpgsqlCommand(sql, connection);
                 await using var reader = await command.ExecuteReaderAsync();
 
                 while (await reader.ReadAsync())
