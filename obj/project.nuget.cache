@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "dgSpecHash": "1JJkbDUOMbI=",
+  "success": true,
+  "projectFilePath": "/Users/hrithiksampson/Downloads/display_an_invoice/InvoiceGenerator/InvoiceGenerator.csproj",
+  "expectedPackageFiles": [
+    "/Users/hrithiksampson/.nuget/packages/microsoft.aspnetcore.mvc.core/2.2.5/microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/microsoft.bcl.cryptography/9.0.13/microsoft.bcl.cryptography.9.0.13.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/microsoft.data.sqlclient/7.0.1/microsoft.data.sqlclient.7.0.1.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/microsoft.data.sqlclient.extensions.abstractions/1.0.0/microsoft.data.sqlclient.extensions.abstractions.1.0.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/microsoft.data.sqlclient.internal.logging/1.0.0/microsoft.data.sqlclient.internal.logging.1.0.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/microsoft.data.sqlclient.sni.runtime/6.0.2/microsoft.data.sqlclient.sni.runtime.6.0.2.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/microsoft.dotnet.platformabstractions/2.1.0/microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/microsoft.extensions.dependencymodel/2.1.0/microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/microsoft.identitymodel.abstractions/8.16.0/microsoft.identitymodel.abstractions.8.16.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.16.0/microsoft.identitymodel.jsonwebtokens.8.16.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/microsoft.identitymodel.logging/8.16.0/microsoft.identitymodel.logging.8.16.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/microsoft.identitymodel.protocols/8.16.0/microsoft.identitymodel.protocols.8.16.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/8.16.0/microsoft.identitymodel.protocols.openidconnect.8.16.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/microsoft.identitymodel.tokens/8.16.0/microsoft.identitymodel.tokens.8.16.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/newtonsoft.json/9.0.1/newtonsoft.json.9.0.1.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.4.0/runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/system.configuration.configurationmanager/9.0.13/system.configuration.configurationmanager.9.0.13.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/system.data.sqlclient/4.9.1/system.data.sqlclient.4.9.1.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/system.identitymodel.tokens.jwt/8.16.0/system.identitymodel.tokens.jwt.8.16.0.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/system.security.cryptography.pkcs/9.0.13/system.security.cryptography.pkcs.9.0.13.nupkg.sha512",
+    "/Users/hrithiksampson/.nuget/packages/system.security.cryptography.protecteddata/9.0.13/system.security.cryptography.protecteddata.9.0.13.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.Mvc.Core will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "/Users/hrithiksampson/Downloads/display_an_invoice/InvoiceGenerator/InvoiceGenerator.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/hrithiksampson/Downloads/display_an_invoice/InvoiceGenerator/InvoiceGenerator.csproj",
+      "libraryId": "Microsoft.AspNetCore.Mvc.Core",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Newtonsoft.Json' 9.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "projectPath": "/Users/hrithiksampson/Downloads/display_an_invoice/InvoiceGenerator/InvoiceGenerator.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/hrithiksampson/Downloads/display_an_invoice/InvoiceGenerator/InvoiceGenerator.csproj",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

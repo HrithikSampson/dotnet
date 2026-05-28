@@ -1,0 +1,8 @@
+/Users/hrithiksampson/Downloads/display_an_invoice/InvoiceGenerator/obj/Debug/net8.0/InvoiceGenerator.csproj.AssemblyReference.cache
+/Users/hrithiksampson/Downloads/display_an_invoice/InvoiceGenerator/obj/Debug/net8.0/rpswa.dswa.cache.json
+/Users/hrithiksampson/Downloads/display_an_invoice/InvoiceGenerator/obj/Debug/net8.0/InvoiceGenerator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hrithiksampson/Downloads/display_an_invoice/InvoiceGenerator/obj/Debug/net8.0/InvoiceGenerator.AssemblyInfoInputs.cache
+/Users/hrithiksampson/Downloads/display_an_invoice/InvoiceGenerator/obj/Debug/net8.0/InvoiceGenerator.AssemblyInfo.cs
+/Users/hrithiksampson/Downloads/display_an_invoice/InvoiceGenerator/obj/Debug/net8.0/InvoiceGenerator.csproj.CoreCompileInputs.cache
+/Users/hrithiksampson/Downloads/display_an_invoice/InvoiceGenerator/obj/Debug/net8.0/InvoiceGenerator.MvcApplicationPartsAssemblyInfo.cs
+/Users/hrithiksampson/Downloads/display_an_invoice/InvoiceGenerator/obj/Debug/net8.0/InvoiceGenerator.MvcApplicationPartsAssemblyInfo.cache
